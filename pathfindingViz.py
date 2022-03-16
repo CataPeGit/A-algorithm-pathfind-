@@ -205,6 +205,9 @@ def get_clicked_position(pos, rows, width):  # finding wich node we clicked
 
 
 def main(win, width):
+    
+    print("Press space to start after placing the blocks!")
+    
     ROWS = 50
     grid = make_grid(ROWS, width)
 
